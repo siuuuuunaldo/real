@@ -1,7 +1,7 @@
 const express = require('express');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
-const db = require('../../login-project/db'); // 데이터베이스 연결
+const db = require('../db'); // 데이터베이스 연결
 require('dotenv').config(); // .env 파일에서 환경변수 불러오기
 
 const router = express.Router();
